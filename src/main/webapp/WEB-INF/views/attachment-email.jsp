@@ -47,7 +47,7 @@
 						<div class="form-group">
 							<label for="email"><i class="zmdi zmdi-email"></i></label>
 							<form:input type="email" path="email" name="email" id="email"
-								placeholder="Email" required="required" />
+								placeholder="Email (Mail will be sent to this ID)" required="required" />
 							<form:errors path="email" cssStyle="color:red;" cssClass="error" />
 						</div>
 						<div class="form-group">
